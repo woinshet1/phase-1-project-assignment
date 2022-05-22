@@ -1,0 +1,50 @@
+{
+  "likes": [
+    {
+      "liked": false,
+      "id": 0
+    },
+    {
+      "liked": false,
+      "id": 1
+    },
+    {
+      "liked": false,
+      "id": 2
+    },
+    {
+      "liked": false,
+      "id": 3
+    },
+    {
+      "liked": false,
+      "id": 4
+    },
+    {
+      "liked": false,
+      "id": 5
+    },
+    {
+      "liked": false,
+      "id": 6
+    },
+    {
+      "liked": false,
+      "id": 7
+    },
+    {
+      "liked": false,
+      "id": 8
+    }
+  ],
+  "subscribers": [
+    {
+      "id": 0,
+      "email": "test@mail.com"
+    },
+    {
+      "email": "test2@gmail.com",
+      "id": 1
+    }
+  ]
+}

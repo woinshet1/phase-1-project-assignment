@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./css/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="./js/index.js" async></script>
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+
+
+  <title>BooksGallery | Favorite Books Showcase</title>
+</head>
+<body>
+  <nav id="main-nav">
+    <div class="container">
+      <h1 style="color: limegreen; font-size: 30px; padding-top: 10px;">FavBooks</h1>
+      <div style="width: 200px;"></div>
+      <ul style="margin-left: 100px">
+        <li id="home-nav"><a href="index.html" class="current">Home</a></li>
+        <li><a href="#main-footer" >Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id=".container" style="padding-top: 30px; padding-bottom: 100px;" class="container">
+    <h1 style="padding-left: 30px">Books List</h1>
+    <div id="books-category-list-1" class="books-category-list"></div>  
+    <div id="books-category-list-2" class="books-category-list"></div>  
+    <div id="books-category-list-3" class="books-category-list"></div>   
+    
+  </section> 
+
+  <div class="message-popup" id="myMessageForm">
+      <h2 style="padding: 10px;">Message</h2>  
+      <p style="padding: 10px; padding-top: 0px;" id="message-text"></p>
+      <button type="button" id="close-button" class="btn cancel" onclick="closeMessageBox()">OK</button>
+
+  </div>
+
+
+  <footer id = 'main-footer' class = 'py-2'>
+    <div class="f-container footer-container">
+      <div>
+        <h1>FavBooks</h1>
+        <p>Phase-1 assignment --> A Books listing web app developed by Woinshet.</p>
+      </div>
+      <div>
+        <h3>Newsletter</h3>
+        <p>Subscribe to our newsletter inorder to get updates and information</p>
+        <form id="subscribeForm">
+          <input name="email" type="email" placeholder="Enter your email" required>
+          <input type="submit" value="Subscribe" class = 'btn btn-primary'>
+        </form>
+      </div>
+      
+      <div>
+        <h2>About</h2>
+        <p>A books listing web application developed for phase-1 assignment</p>
+      </div>
+      <div>
+        <p>
+          FavBooks - Books Listing App
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
