@@ -1,4 +1,3 @@
-<br />
 # Phase-1 Project Assignment
 
 
