@@ -11,7 +11,7 @@
 
 ## Selected API URL - [https://anapioficeandfire.com/api/books](https://anapioficeandfire.com/api/books)
 
-## User Story URL - [Click here](https://docs.google.com/document/d/1kbyhwh-Y8p93kn6dZkkOfXajww6rDcctEaIMElJ3FQw/edit?usp=sharing)
+## User Story URL - [Click here](https://docs.google.com/document/d/1MRlMAAP679lPgm2p9_rFE9JKXfsnBsIkx7_utZYuxLg/edit?usp=sharing)
 
 
 
